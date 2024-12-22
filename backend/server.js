@@ -4,8 +4,6 @@ import { connect } from "mongoose"
 import { connectDB } from "./config/db.js"
 import foodRouter from "./routes/foodRoute.js"
 
-
-
 // app config
 const app = express()
 const port = 4000
